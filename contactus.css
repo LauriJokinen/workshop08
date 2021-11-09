@@ -23,6 +23,12 @@ li {
 
 }
 
+.otsikko{
+  padding-top: 50px;
+  padding-bottom: 70px;
+
+}
+
 a{
   color: black;
 
@@ -31,10 +37,15 @@ a{
 img{
   width: 100px;
   height: 100px;
+ margin-left: 20%;
 
 }
 
 .tiedot {
   width: 70%;
 
+}
+ul.tiedot{
+padding-right: 100%;
+list-style-type: none;
 }
