@@ -7,7 +7,17 @@ body{
 
 }
 .linkit {
-  border-style: solid;
+  border: 2px solid black;
   padding: 20px;
   margin-top: 50px;
+  font-size: 29px;
+
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding-right: 20%;
+
 }
