@@ -1,0 +1,45 @@
+.boxshadow {
+  box-shadow: 3px 1px 3px 3px;
+  width: 20%;
+}
+
+.textshadow {
+  text-shadow: 3px 1px 3px;
+}
+
+.lorem {
+  text-align: justify;
+  width: 50%;
+  background-image: url("peukku.png");
+  background-size: cover;
+  color: white;
+}
+.linkki:hover {
+  color: orange;
+  transition: 0.5s;
+
+}
+.linkki {
+  color: black;
+
+}
+
+@media (max-width: 800px){
+  body{
+    background-color: black;
+  }
+  .linkki {
+    color: white;
+
+  }
+  h1 {
+    color: white;
+
+  }
+  p {
+    color: white;
+
+  }
+
+
+}
